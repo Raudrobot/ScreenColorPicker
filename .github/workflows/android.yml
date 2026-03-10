@@ -29,4 +29,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: ScreenColorPicker-APK_FILES
-        path: app/
+        path: app/**/*.apk
+
+    - name: Info
+    run: ls app/
