@@ -32,4 +32,4 @@ jobs:
         path: app/**/*.apk
 
     - name: Info
-    run: ls app/
+      run: ls app/
